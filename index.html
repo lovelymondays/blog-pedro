@@ -1,0 +1,354 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/
+f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          class="header-icon"
+          src="https://images.tokopedia.net/img/cache/215-square/GAnVPX/2021/8/4/2edd5ac4-3127-4bb8-9c20-0e1809984289.jpg"
+          alt=""
+        />
+        <h3 class="title"><a href="index.html">Cobee The Coder</a></h3>
+        <nav>
+          <a href="project.html">Project</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- <button>Show Modal</button>
+    <div class="modal-container">
+      <div class="modal">
+        <h3>This is Modal</h3>
+        <span>x</span>
+      </div>
+    </div> -->
+
+    <main>
+      <section id="jumbotron">
+        <div class="jumbotron">
+          <h1
+            class="jumbotron-title"
+            onmouseover="changeTitle(this)"
+            onmouseout="changeTitleBack(this)"
+          >
+            Get Programming Tips Here!
+          </h1>
+          <div class="header-flex">
+            <div>
+              <h2 class="jumbotron-text">
+                Just new in programming world?
+                <br />
+                Let's Start with Creating Simple
+                <span style="color: #f4a261">Game and Website!</span>
+              </h2>
+              <div class="mini-text-flex">
+                <p class="mini-text">Learn Basic Programming here</p>
+                <button id="icon-up" onclick="changeText()">
+                  <i class="far fa-hand-point-up"></i>
+                </button>
+                <button id="icon-down" class="icon-down">
+                  <i class="far fa-hand-point-down" onclick="changeText()"></i>
+                </button>
+              </div>
+            </div>
+            <div>
+              <img
+                onmouseover="changeImage(this)"
+                onmouseout="changeImageBack(this)"
+                class="jumbotron-img"
+                src="https://i0.wp.com/timedooracademy.com/wp-content/uploads/2022/10/Kelapa-Gading.jpeg"
+                alt="gambar"
+                width="auto"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg
+        class="wave1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#0099ff"
+          fill-opacity="1"
+          d="M0,192L20,208C40,224,80,256,120,261.3C160,267,200,245,240,197.3C280,149,320,75,360,90.7C400,107,440,213,480,245.3C520,277,560,235,600,234.7C640,235,680,277,720,288C760,299,800,277,840,277.3C880,277,920,299,960,277.3C1000,256,1040,192,1080,154.7C1120,117,1160,107,1200,122.7C1240,139,1280,181,1320,192C1360,203,1400,181,1420,170.7L1440,160L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+
+      <svg
+        class="wave2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#00ff00"
+          fill-opacity="1"
+          d="M0,192L20,208C40,224,80,256,120,261.3C160,267,200,245,240,197.3C280,149,320,75,360,90.7C400,107,440,213,480,245.3C520,277,560,235,600,234.7C640,235,680,277,720,288C760,299,800,277,840,277.3C880,277,920,299,960,277.3C1000,256,1040,192,1080,154.7C1120,117,1160,107,1200,122.7C1240,139,1280,181,1320,192C1360,203,1400,181,1420,170.7L1440,160L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+
+      <section id="slider" class="section-slider">
+        <div class="image-slider">
+          <div class="slide active">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg"
+              alt="viego"
+            />
+            <div class="slide-text">
+              <h2>Viego</h2>
+              <p>
+                Viego commands the Black Mist to haunt and surround a piece of
+                terrain. Viego can hide in the Mist as a wraith, gaining
+                camouflage,
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg"
+              alt="gwen"
+            />
+            <div class="slide-text">
+              <h2>Gwen</h2>
+              <p>
+                Gwen is a champion in League of Legends.[1] This article section
+                only contains champion skins.
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg"
+              alt="zeri"
+            />
+            <div class="slide-text">
+              <h2>Zeri</h2>
+              <p>
+                A headstrong, spirited young woman from Zaun's working-class,
+                Zeri channels her electric magic to charge herself and her
+                custom-crafted gun.
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg"
+              alt="Caitlyn"
+            />
+            <div class="slide-text">
+              <h2>Caitlyn</h2>
+              <p>
+                Caitlyn with U.GG's best data for every build. The highest win
+                rate Caitlyn build, from rune set to skill order to item path,
+                for ADC.
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg"
+              alt=""
+            />
+            <div class="slide-text">
+              <h2>Nunu</h2>
+              <p>
+                Nunu is a champion in League of Legends.[1] The champion Nunu
+                consists of two beings: The yeti Willump is the primary one
+                answering movement commands
+              </p>
+            </div>
+          </div>
+
+          <!-- Copy paste div class slide di atas (tanpa kata active) sampai ada 5 buah div -->
+          <div class="navigation">
+            <div class="slider-btn active"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+          </div>
+        </div>
+      </section>
+      <!-- ------------------------ Meeting 10 ----------------------- -->
+      <div class="main-content">
+        <aside>
+          <div class="profile">
+            <h3 class="aside-title">It's Cobee</h3>
+            <img
+              class="profile-picture"
+              src="https://i.pinimg.com/236x/ed/3c/56/ed3c5668f6c93125b59254f476c259a5.jpg"
+              alt="Cobee"
+              width="150px"
+              height="auto"
+            />
+            <!-- ------------------------ Meeting 11----------------------- -->
+            <div class="toggle">
+              <button class="btn" id="green">
+                <i class="fa fa-thumbs-up fa-lg"></i>
+              </button>
+              <button class="btn" id="red">
+                <i class="fa fa-thumbs-down fa-lg"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="search-tags-container">
+            <div class="input-tag">
+              <h3 class="aside-title">Search here</h3>
+              <input id="myInput" type="text" placeholder="Search..." />
+              <span class="addBtn" onclick="newElement()">Search</span>
+            </div>
+
+            <ul id="myUL" class="search-tags-list">
+              <li class="search-tags-item">HTML</li>
+              <li class="search-tags-item">Code</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="content">
+          <!-- ------------------------ Meeting 11----------------------- -->
+          <article id="my-project">
+            <h3 class="article-title">My Project</h3>
+            <div class="project-container">
+              <div class="project">
+                <img
+                  src="https://cdn.medcom.id/images/content/2021/11/03/1348021/maqDbEnsXH.jpg"
+                  alt="rally"
+                  width="300px"
+                  height="210px"
+                />
+                <h4 class="project-title">Desert Rally</h4>
+                <p class="project-description">
+                  Desert Rally Game is using Scratch 3 as a platform
+                </p>
+              </div>
+              <div class="project">
+                <img
+                  src="https://wearecollins.imgix.net/uploads/01_Spotify.gif?auto=format%2Ccompress&dpr=2.63&fit=max&q=90&w=400"
+                  alt="memory-game"
+                  width="300px"
+                  height="210px"
+                />
+                <h4 class="project-title">Memory Game</h4>
+                <p class="project-description">
+                  Memory Game is using Phaser as a Javascript Framework
+                </p>
+              </div>
+            </div>
+            <div class="project-container">
+              <div class="project">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/The_Boring_Company_Logo.svg/1200px-The_Boring_Company_Logo.svg.png"
+                  alt="platformer"
+                  width="450px"
+                  height="210px"
+                />
+                <h4 class="project-title">Platformer</h4>
+                <p class="project-description">
+                  Platformer Game is using Construct 3 as a platform
+                </p>
+              </div>
+              <div class="project">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/1024px-Shopee.svg.png"
+                  alt="florist"
+                  width="450px"
+                  height="210px"
+                />
+                <h4 class="project-title">Flower Shop Website</h4>
+                <p class="project-description">
+                  E-commerce Website for Flowers and Bouquet Shop
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article id="video">
+            <div class="item-video">
+              <h3 class="article-title">What is Coding?</h3>
+              <iframe
+                class="video-content"
+                width="700px"
+                height="400px"
+                src="https://www.youtube.com/embed/XMZFUnAgOqs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+
+              <h3 class="article-title">Coding is Not Difficult !</h3>
+              <iframe
+                class="video-content"
+                width="700px"
+                height="400px"
+                src="https://www.youtube.com/embed/hb7Q33ysCwI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+
+          <article id="maps">
+            <div class="maps">
+              <h3 class="article-title">Location</h3>
+              <div class="location">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.1041217472043!2d115.23826581416502!3d-8.681647890800283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1622688384272!5m2!1sen!2sid"
+                  width="500"
+                  height="350"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+                <div class="maps-text">
+                  <!-- <h3>Timedoor Coding Academy</h3>
+                                <p>Timedoor Coding Academy adalah bagian dari PT Timedoor Indonesia, <br>
+                                tempat penulis belajar konsep programming sehingga bisa membuat Blog ini.</p> -->
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+    <!-- ------------------------ Meeting 10 ----------------------- -->
+    <footer>
+      <div class="main-footer">
+        <h3 class="info-top">Cobee The Junior Programmer</h3>
+        <div class="social-media">
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <p class="info-center">
+          Copyright &copy; 2021. Cobee. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>
