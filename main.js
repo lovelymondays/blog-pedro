@@ -204,6 +204,6 @@ if (btnSubmit) {
   btnSubmit.addEventListener("click", function () {
     modal.classList.add("show");
     const next = document.querySelector(".next");
-    next.setAttribute("value", "https://blog-pedro.netlify.app/contact.html");
+    next.setAttribute("value", "https://arjism.online/contact.html");
   });
 }
